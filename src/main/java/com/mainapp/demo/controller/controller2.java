@@ -6,20 +6,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api")
-public class controller {
+public class controller2 {
     int counter = 0;
 
-    @GetMapping("/greeting")
+    @GetMapping("/student")
     public String greeting(String name) {
-        return "tyutyu";
+        return "STUDENT YO";
     }
-
-//
-//    @GetMapping(value = "/student}")
-//    public String getTestData(Integer studentId) {
-//        return "Hi";
-//    }
-
 }
 
 
